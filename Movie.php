@@ -96,3 +96,16 @@ $movie7->regista =  'David Yates';
 $movie7->voto =  4;
 $movie7->setClassifica();
 var_dump($movie7);
+
+// Stampa giusto per esempio - il br è solo per velocità
+foreach ($movie1 as $key => $value) {
+    echo strtoupper($key) .' - ' .$value .'<br>';
+}
+echo '<br>';
+foreach ($movie2 as $key => $value) {
+    echo strtoupper($key) .' - ' .$value .'<br>';
+}
+echo '<br>';
+foreach ($movie6 as $key => $value) {
+    echo strtoupper($key) .' - ' .$value .'<br>';
+}
